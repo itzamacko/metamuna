@@ -1,14 +1,117 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>SampleApp</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>metamune</title>
+    <%= stylesheet_link_tag    "application", media: "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style type="text/css">
+    @import url(http://fonts.googleapis.com/css?family=Damion);
+    </style>
+    <link href="https://dl.dropbox.com/u/6395943/metamune/css/style3.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tab.js"></script>
+    <style type="text/css">
+    #apDiv1 {
+      position:absolute;
+      width:824px;
+      height:309px;
+      z-index:1;
+      left: 347px;
+      top: 203px;
+    }
+    #apDiv2 {
+      position:absolute;
+      width:650px;
+      height:115px;
+      z-index:2;
+      left: 423px;
+      top: 358px;
+    }
+    
+    </style>
+  </head>
+  <body background="https://dl.dropbox.com/u/6395943/metamune/imgs/brooklomo.jpg" href="../css/style3.css" rel="stylesheet" type="text/css">
+  <div class="wrapper">
+  <div id="apDiv3"></div>
+  <style> 
+  
+  </style>
+  <center><div id="apDiv1"><img src="https://dl.dropbox.com/u/6395943/metamune/imgs/metamuna.png" alt="metamune" width="600" height="160" align="middle" /></div></center>
+  
+  
+  </div>
+  </div>
+  
+  
+  <div class="well" id="apDiv2">
+  <center><p style='padding-top : 35px'></p>
+  <form class=" form-inline" ">
+    <input type="text" class="input-small" placeholder="Email" ">
+    <input type="password" class="input-small" placeholder="Password">
+    <label class="checkbox">
+      <input type="checkbox"> Remember me &nbsp &nbsp </label>
+  
+      <a href="#" class="button pink">AWWWW YEAHHHHH</a>
+      <a href="#" class="button teal">Sign Up</a>
+  
+  </form></center>
+  </div>
+  <div class="push"></div>
+  </div>
+      <%= yield %>
+    </div>
+  </body>
+  <div class="navbar navbar-fixed-bottom"style="font-family: 'Lobster', sans-serif;">
+    <div class="navbar-inner">
+  
+      <div class="container">
+        <ul class="nav pull-right">
+    <li class="dropdown ">
+    <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Legal<b class="caret up"></b></a>
+    <ul class="dropdown-menu dropup-menu" id="menu3">
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms of Service</a></li>
+      <li class="divider"></li>
+      <li><a href="#">Do's and Dont's</a></li>
+  
+    </ul>
+  </li>
+  
+  </ul>
+        <ul class="nav pull-left">
+          <li class="dropdown">
+          <a href="#" data-toggle="dropdown" style="text-decoration:none" class="dropdown-toggle"><i class="icon-globe"></i>
+  <b class="caret up"></b></a>
+               <ul class="dropdown-menu dropup-menu" id="menu3">
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Pinterest</a></li>
+                <li><a href="#">Google +</a></li>
+                <li class="divider"></li>
+    </ul>
+  
+        </li>
+            <li><a href="#">Help</a></li>
+            <li class="dropdown ">
+    <a href="#" data-toggle="dropdown" class="dropdown-toggle ">About<b class="caret up"></b></a>
+    <ul class="dropdown-menu dropup-menu" id="menu3">
+      <li><a href="#">Artwork</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">Blog</a></li>
+      <li class="divider"></li>
+      <li><a href="#">What is Metamune?</a></li>
+    </ul>
+  </li>
+              </li>
+  </ul>
+      </ul>
+  
+      </div>
+    </div>
+  </div>
 
-<%= yield %>
-
-</body>
 </html>
