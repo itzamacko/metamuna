@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>metamune</title>
+    <title>metamuna</title>
     <%= stylesheet_link_tag    "application", media: "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
@@ -41,7 +41,7 @@
   <style> 
   
   </style>
-  <center><div id="apDiv1"><img src="https://dl.dropbox.com/u/6395943/metamune/imgs/metamuna.png" alt="metamune" width="600" height="160" align="middle" /></div></center>
+  <center><div id="apDiv1"><img src="https://dl.dropbox.com/u/6395943/metamune/imgs/metamuna.png" alt="metamuna" width="600" height="160" align="middle" /></div></center>
   
   
   </div>
@@ -74,7 +74,9 @@
     <li class="dropdown ">
     <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Legal<b class="caret up"></b></a>
     <ul class="dropdown-menu dropup-menu" id="menu3">
-      <li><a href="#">Privacy Policy</a></li>
+      
+      
+      <li><%= link_to "Privacy Policy", about_path %></li>
       <li><a href="#">Terms of Service</a></li>
       <li class="divider"></li>
       <li><a href="#">Do's and Dont's</a></li>
@@ -99,11 +101,11 @@
             <li class="dropdown ">
     <a href="#" data-toggle="dropdown" class="dropdown-toggle ">About<b class="caret up"></b></a>
     <ul class="dropdown-menu dropup-menu" id="menu3">
-      <li><a href="#">Artwork</a></li>
-      <li><a href="#">Team</a></li>
+      <li><%= link_to "Artwork", about_path %></li>
+      <li><%= link_to "Team", about_path %></li>
       <li><a href="#">Blog</a></li>
       <li class="divider"></li>
-      <li><a href="#">What is Metamune?</a></li>
+      <li><%= link_to "What is Metamune?", about_path %></li>
     </ul>
   </li>
               </li>
