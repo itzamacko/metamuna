@@ -8,14 +8,7 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
  
-body {
-   /*background-image: url(https://dl.dropbox.com/u/62138849/Metamunages/3_piece_suits_by_ether-d35zs1l.jpg) no-repeat center center fixed; */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
- 
- }
+
 
 
 article,
@@ -1494,7 +1487,7 @@ table .span24 {
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../imgs/glyphicons-halflings.png");
+  background-image: url("../images/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
 }
@@ -1503,7 +1496,7 @@ table .span24 {
   *margin-left: 0;
 }
 .icon-white {
-  background-image: url("../imgs/glyphicons-halflings-white.png");
+  background-image: url("../images/glyphicons-halflings-white.png");
 }
 .icon-glass {
   background-position: 0      0;
